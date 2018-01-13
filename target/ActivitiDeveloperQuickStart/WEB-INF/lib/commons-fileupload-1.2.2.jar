@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate, no-store">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script language="javascript" type="text/javascript">
+    "use strict";
+    //此方法与HiWiFi中的方法保持一致
+    function getCookie(name) {
+        var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+        arr = document.cookie.match(reg);
+        if (arr) {
+            return window.unescape(arr[2]);
+        } else {
+            return null;
+        }
+    }
+    function getClientType() {
+        var type = getCookie("client_type");
+        var is_mobile = null;
+        if (!type) {
+            is_mobile = getCookie("is_mobile");
+            if (is_mobile === null) {
+                //此方法与HiWiFi中的方法保持一致
+                type = navigator.userAgent.match(/(Android|iPhone|SymbianOS|Windows Phone|iPod|MQQBrowser|XiaoMi)/gi) ? "mobile" : "web";
+            } else if (is_mobile === 1) {
+                type = "mobile";
+            } else {
+                type = "web";
+            }
+        }
+        return type;
+    }
+    var type = getClientType();
+    var url_search = location.search || "?";
+    if(type === "mobile"){
+        window.location.href = "/cgi-bin/turbo/admin_mobile/net_detect_2" + url_search; 
+    } else {
+        window.location.href = "/cgi-bin/turbo/admin_web/system/net_detect" + url_search;
+    }
+</script>
+<style type="text/css">
+body {text-align: center; background-color: #008EC7;}
+#infobox{width: 610px; margin: 30px auto 0; padding: 20px; background: #F1FAFE; -webkit-border-radius: 10px;
+        -moz-border-radius: 10px; border-radius: 10px; min-width: 618px; line-height: 36px; margin-right: 8px;
+        font-size: 16px; color: #999; font-family: Microsoft Yahei; position: relative;}
+a { color: #36AAD6; text-decoration: none;}
+</style>
+<title>HIWIFI </title>
+</head>
+<noscript>
+<div id="infobox">
+为了更好的体验，请开启浏览器的JavaScript功能。
+<br />
+设置完成后请
+<a style="text-decoration: none" href="/">刷新</a>
+</div>
+</noscript>
+</html>

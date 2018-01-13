@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 非spring时的配置 -->
+	<bean id="processEngineConfiguration"
+		class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+		<property name="databaseType" value="mysql"></property><!-- 数据库类型，最好配置一下 -->
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/activiti"></property>  <!-- 数据库URL，我放在名为activiti数据库中 -->
+		<property name="jdbcDriver" value="com.mysql.jdbc.Driver"></property>   <!-- 数据库驱动类 mysql是这个，其它的数据库修改一下即可 -->
+		<property name="jdbcUsername" value="root"></property>  <!-- 连接数据库的账号 -->
+		<property name="jdbcPassword" value="buzhidao"></property>  <!-- 连接数据库的密码 -->
+		<property name="databaseSchema" value="activiti"></property> <!-- 这个属性可能会用到，后面会进行说明 -->
+	</bean>
+
+</beans>

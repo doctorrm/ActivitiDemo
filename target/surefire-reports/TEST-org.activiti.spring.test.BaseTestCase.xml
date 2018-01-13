@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="org.activiti.spring.test.BaseTestCase" time="0.013" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\project_of_programming_software\Eclipse_file\STS\ActivitiDeveloperQuickStart"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\project_of_programming_software\Eclipse_file\STS\ActivitiDeveloperQuickStart"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\project_of_programming_software\PLUGINS\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_112/bin/server;C:/Program Files/Java/jre1.8.0_112/bin;C:/Program Files/Java/jre1.8.0_112/lib/amd64;F:\BIGTEMP\SCADA-RT_V11\WinCC\Bin;C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\Program Files (x86)\Common Files\Siemens\Bin;C:\Program Files (x86)\Common Files\Siemens\CommonArchiving;C:\Program Files (x86)\Common Files\Siemens\ACE\Bin;F:\oracle\Administrator\virtual\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Users\Administrator\AppData\Local\Android\sdk\tools;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Users\Administrator\AppData\Local\Android\sdk\platform-tools;C:\Users\Administrator\AppData\Local\Android\sdk\tools;F:\MATLAB2016a\runtime\win64;F:\MATLAB2016a\bin;F:\MATLAB2016a\polyspace\bin;E:\Mysql\mysql-5.6.34-win32\mysql-5.6.34-win32\bin;E:\Mysql\mysql\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 &amp; MySQL Utilities 1.5.4 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 &amp; MySQL Utilities 1.5.4 1.5\Doctrine extensions for PHP\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;E:\project_of_programming_software\PLUGINS\apache-maven-3.3.9\bin;%QUARTUS_ROOTDIR%\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Administrator\eclipse\jee-neon\eclipse;C:\Program Files (x86)\Microsoft Office\root\Office16;C:\Users\Administrator\Firefox;F:\Matlab2016a\bin;C:\Program Files (x86)\tencent\qq\Bin;E:\project_of_programming_software\PLUGINS\elasticsearch-2.2.0\bin;E:\project_of_programming_software\PLUGINS\NodeJs\;E:\project_of_programming_software\PLUGINS\apache-jmeter-3.2\bin;F:\php;F:\php\ext;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL;C:\Program Files (x86)\VMware\VMware Workstation;F:\oracle\Administrator\virtual\product\12.2.0\dbhome_1\sqldeveloper;E:\project_of_programming_software\PLUGINS\nginx;D:\XFTP;D:\FileZilla\FileZilla FTP Client;E:\project_of_programming_software\PLUGINS\redis;F:\WeChat微信;D:\putty;C:\Program Files (x86)\tencent\qq\Bin;F:\PyCharm2017\PyCharm 2017.2.3\bin;F:\IntelliJIdea\IntelliJ IDEA 2017.2.5\bin;D:\HBuilder;D:\Everything;C:\Program Files (x86)\Google\Chrome\Application;C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe;C:\Program Files\Mozilla Firefox;E:\project_of_programming_software\PLUGINS\spring-boot\spring-1.3.0.BUILD-SNAPSHOT\bin;C:\Users\Administrator\node_modules\blockchain-cli;E:\project_of_programming_software\PLUGINS\nexus\nexus-3.6.0-02\bin;F:\PhpStorm\PhpStorm 2017.2.4\bin;F:\WebStorm\WebStorm 2017.2.4\bin;D:\cports;C:\Users\Administrator\AppData\Local\Programs\Python\Python35\Scripts;C:\Users\Administrator\AppData\Roaming\Lantern;C:\Users\Administrator\AppData\Local\Postman\app-5.3.1;F:\STS\sts-bundle\sts-3.9.1.RELEASE;D:\ngrok;D:\Opera;D:\BadBoy;E:\project_of_programming_software\PLUGINS\nginx;D:\Git\Git\cmd;E:\QT\Tools\QtCreator\bin;D:\SUBLIME\Sublime Text 3;D:\mathtype;F:\Listary\Listary;D:\Git\Git;D:\Learnpulse\Screenpresso;D:\MarkEditor\MarkEditor;D:\xshell;D:\tcping;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PostgreSQL 9.5;D:\postgresql\bin;C:\Program Files\MongoDB\Server\3.4\bin;D:\navicat\Navicat Premium;D:\maria\bin;D:\golang\bin;D:\liteide\liteide\bin;C:\MinGW\bin;E:\project_of_programming_software\PLUGINS\zookeeper-3.4.10\bin;E:\project_of_programming_software\PLUGINS\apache-activemq-5.15.2\bin;D:\robo3t(mongodb)\Robo 3T 1.1.1;D:\MarkdownPad;F:\erlang\erl9.1\bin;E:\project_of_programming_software\PLUGINS\rabbitmq\rabbitmq_server-3.7.0\sbin;D:\golang\bin;D:\Git\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;E:\project_of_programming_software\PLUGINS\apache-ant-1.10.1\bin;F:\BIGTEMP\SCADA-RT_V11\WinCC\Interfaces;C:\Program Files (x86)\Common Files\Siemens;C:\Program Files (x86)\Common Files\Siemens\Interfaces;C:\Program Files (x86)\Common Files\Siemens\ACE\Interfaces;C:\Users\Administrator\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python35\;%ANDROID_HOME%\platform-tools;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;D:\winSCP\WinSCP;D:\Xshell;D:\jar2exe\;D:\vs-code\Microsoft VS Code\bin;C:\Users\Administrator;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="E:\project_of_programming_software\PLUGINS\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\project_of_programming_software\PLUGINS\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="org.activiti.spring.test.BaseTestCase" name="test" time="0.013"/>
+</testsuite>
